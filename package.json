@@ -2,7 +2,7 @@
   "name": "doko-bot",
   "version": "1.0.0",
   "description": "Doko Bot for Discord.",
-  "main": "main.js",
+  "main": "token.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

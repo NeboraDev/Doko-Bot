@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const config = require("./config.json")
 
 const client = new Discord.Client({
     intents: [
@@ -10,7 +11,5 @@ const client = new Discord.Client({
 client.once("ready", () => {
     console.log("Doko is now online!");
 })
-
-
 
 client.login(config.token);
