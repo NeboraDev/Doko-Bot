@@ -11,4 +11,6 @@ client.once("ready", () => {
     console.log("Doko is now online!");
 })
 
+
+
 client.login(config.token);
